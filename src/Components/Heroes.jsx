@@ -21,10 +21,10 @@ function Heroes() {
         </div>  
         <div className=" w-screen h-3/4 flex px-8">
             <span className="writeup self-center w-2/4 h-2/4 flex flex-col justify-between">
-                <text>
+                <span>
                     <h1 className='text-7xl font-bold'>LUXE SKIN</h1>
                     <h1 className='text-6xl font-bold'>CONCEALER</h1>
-                </text>
+                </span>
                 <span className="btns">
                     <button className="bg-black text-white px-7 py-4 border-solid border-2 border-black text-2xl">Click to Buy Now</button>
                     <button className="bg-white border-black border-solid border-2 px-14 py-4 ml-12 text-2xl">Explore</button>
@@ -36,6 +36,7 @@ function Heroes() {
               <img src={Ellipse} alt="" className='w-80  self-center absolute right-13 ml-7 ' />
               <img src={Logo} alt=""  className='w-96 absolute top-11 right-15'/>
               <img src={Star} alt="" className='w-40 absolute mt-44 ' />
+              <p className='text-white absolute text-2xl mt-52 ml-14'>40% <br/> OFF</p>
             </span>
         </div>  
     </div>)
