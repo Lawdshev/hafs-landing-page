@@ -4,13 +4,12 @@ import Ellipse from '../images/Ellipse 3.png';
 import Star from '../images/Star 1.png';
 
 
-
 function Heroes() {
     
   return (
     <div className="h-screen bg-red-200">
         <div className="container flex py-4">
-            <nav className="container flex flex-row ">
+            <nav className="container flex flex-col md:flex-row ">
                 <ul className='flex self-center mx-auto w-52 justify-between'>
                     <li className='hover:bg-black hover:text-white px-2 py-1 duration-500'>Home</li>
                     <li className='hover:bg-black hover:text-white px-2 py-1 duration-500'>Shop</li>
