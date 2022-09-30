@@ -1,17 +1,21 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import Logo from '../images/Ellipse 1.png';
 import Ellipse from '../images/Ellipse 3.png';
 import Star from '../images/Star 1.png';
 
+
+
 function Heroes() {
+    
   return (
     <div className="h-screen bg-red-200">
         <div className="container flex py-4">
             <nav className="container flex flex-row ">
                 <ul className='flex self-center mx-auto w-52 justify-between'>
-                    <li>Home</li>
-                    <li>Shop</li>
-                    <li>About Us</li>
+                    <li className='hover:bg-black hover:text-white px-2 py-1 duration-500'>Home</li>
+                    <li className='hover:bg-black hover:text-white px-2 py-1 duration-500'>Shop</li>
+                    <li className='hover:bg-black hover:text-white px-1 py-1 duration-500'>About Us</li>
                 </ul>
             </nav>
             <span className="flex justify-between self-center w-32 text-xl mr-4">
@@ -23,9 +27,13 @@ function Heroes() {
             <span className="writeup self-center w-2/4 h-2/4 flex flex-col justify-between">
                     <h1 className='text-7xl font-bold'>LUXE SKIN</h1>
                     <h1 className='text-6xl font-bold'>CONCEALER</h1>
+                <span>
+                    <h1 className='text-7xl font-bold'>LUXE SKIN</h1>
+                    <h1 className='text-6xl font-bold'>CONCEALER</h1>
+                </span>
                 <span className="btns">
-                    <button className="bg-black text-white px-7 py-4 border-solid border-2 border-black text-2xl">Click to Buy Now</button>
-                    <button className="bg-white border-black border-solid border-2 px-14 py-4 ml-12 text-2xl">Explore</button>
+                    <button className="hover:bg-white hover:text-black bg-black text-white px-7 py-4 border-solid border-2 border-black text-2xl duration-500">Click to Buy Now</button>
+                    <button className="bg-white border-black border-solid border-2 px-14 py-4 ml-12 text-2xl hover:bg-black hover:text-white animate-bounce duration-500">Explore</button>
                 </span>
             </span>
             
@@ -34,6 +42,7 @@ function Heroes() {
               <img src={Ellipse} alt="" className='w-80  self-center absolute right-13 ml-7 ' />
               <img src={Logo} alt=""  className='w-96 absolute top-11 right-15'/>
               <img src={Star} alt="" className='w-40 absolute mt-44 ' />
+              <p className='text-white absolute text-2xl mt-52 ml-14'>40% <br/> OFF</p>
             </span>
         </div>  
     </div>)
