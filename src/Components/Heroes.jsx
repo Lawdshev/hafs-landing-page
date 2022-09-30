@@ -9,7 +9,7 @@ import Star from '../images/Star 1.png';
 function Heroes() {
     
   return (
-    <div className="h-screen bg-red-300">
+    <div className="h-screen bg-red-200">
         <div className="container flex py-4">
             <nav className="container flex flex-row ">
                 <ul className='flex self-center mx-auto w-52 justify-between'>
@@ -25,6 +25,8 @@ function Heroes() {
         </div>  
         <div className=" w-screen h-3/4 flex px-8">
             <span className="writeup self-center w-2/4 h-2/4 flex flex-col justify-between">
+                    <h1 className='text-7xl font-bold'>LUXE SKIN</h1>
+                    <h1 className='text-6xl font-bold'>CONCEALER</h1>
                 <span>
                     <h1 className='text-7xl font-bold'>LUXE SKIN</h1>
                     <h1 className='text-6xl font-bold'>CONCEALER</h1>
