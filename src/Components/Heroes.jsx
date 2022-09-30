@@ -1,9 +1,7 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import Logo from '../images/Ellipse 1.png';
 import Ellipse from '../images/Ellipse 3.png';
 import Star from '../images/Star 1.png';
-
 
 
 function Heroes() {
@@ -11,7 +9,7 @@ function Heroes() {
   return (
     <div className="h-screen bg-red-200">
         <div className="container flex py-4">
-            <nav className="container flex flex-row ">
+            <nav className="container flex flex-col md:flex-row ">
                 <ul className='flex self-center mx-auto w-52 justify-between'>
                     <li className='hover:bg-black hover:text-white px-2 py-1 duration-500'>Home</li>
                     <li className='hover:bg-black hover:text-white px-2 py-1 duration-500'>Shop</li>
@@ -25,8 +23,6 @@ function Heroes() {
         </div>  
         <div className=" w-screen h-3/4 flex px-8">
             <span className="writeup self-center w-2/4 h-2/4 flex flex-col justify-between">
-                    <h1 className='text-7xl font-bold'>LUXE SKIN</h1>
-                    <h1 className='text-6xl font-bold'>CONCEALER</h1>
                 <span>
                     <h1 className='text-7xl font-bold'>LUXE SKIN</h1>
                     <h1 className='text-6xl font-bold'>CONCEALER</h1>
