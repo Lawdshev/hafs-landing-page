@@ -29,7 +29,9 @@ function Heroes() {
                 </span>
                 <span className="btns">
                     <button className="hover:bg-white hover:text-black bg-black text-white px-7 py-4 border-solid border-2 border-black text-2xl duration-500">Click to Buy Now</button>
-                    <button className="bg-white border-black border-solid border-2 px-14 py-4 ml-12 text-2xl hover:bg-black hover:text-white animate-bounce duration-500">Explore</button>
+                    <a href="#products">
+                     <button className="bg-white border-black border-solid border-2 px-14 py-4 ml-12 text-2xl hover:bg-black hover:text-white animate-bounce duration-500">Explore</button>
+                    </a>
                 </span>
             </span>
             
