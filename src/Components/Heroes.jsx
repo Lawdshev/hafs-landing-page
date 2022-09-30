@@ -1,5 +1,4 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 import Logo from '../images/Ellipse 1.png';
 import Ellipse from '../images/Ellipse 3.png';
 import Star from '../images/Star 1.png';
@@ -25,15 +24,15 @@ function Heroes() {
         </div>  
         <div className=" w-screen h-3/4 flex px-8">
             <span className="writeup self-center w-2/4 h-2/4 flex flex-col justify-between">
-                    <h1 className='text-7xl font-bold'>LUXE SKIN</h1>
-                    <h1 className='text-6xl font-bold'>CONCEALER</h1>
                 <span>
                     <h1 className='text-7xl font-bold'>LUXE SKIN</h1>
                     <h1 className='text-6xl font-bold'>CONCEALER</h1>
                 </span>
                 <span className="btns">
                     <button className="hover:bg-white hover:text-black bg-black text-white px-7 py-4 border-solid border-2 border-black text-2xl duration-500">Click to Buy Now</button>
-                    <button className="bg-white border-black border-solid border-2 px-14 py-4 ml-12 text-2xl hover:bg-black hover:text-white animate-bounce duration-500">Explore</button>
+                    <a href="#products">
+                     <button className="bg-white border-black border-solid border-2 px-14 py-4 ml-12 text-2xl hover:bg-black hover:text-white animate-bounce duration-500">Explore</button>
+                    </a>
                 </span>
             </span>
             
