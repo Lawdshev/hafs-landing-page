@@ -4,7 +4,7 @@ import Products from "../Products/Products"
 
 const Card  = ({image,name,price}) => {
     return ( 
-        <div className=' container w-60 h-96 ml-10 text-center justify-between'>
+        <div className=' container w-60 h-96 ml-10 text-center justify-between my-card'>
             <img src={image} alt="make up" className='mt-10' />
             <p className='mt-3'>{name}</p>
             <p>{price}</p>
@@ -13,16 +13,15 @@ const Card  = ({image,name,price}) => {
      );
 }
  
- 
 
 function heroes2() {
   return (
     <div className='h-screen bg-pink-100'id='products'>
-      <div className="h-1/4 bg-red-200 text-center">
-        <h1 className='text-5xl'>POPULAR PRODUCTS</h1>
+      <div className="h-1/4 bg-red-200 text-center ppp">
+        <h1 className='text-5xl pp'>POPULAR PRODUCTS</h1>
         <p className='text-2xl mt-2 italic font-light'>MEET OUR BEST SELLERS</p>
       </div>
-      <div className= "self-center h-3/5 px-14 flex justify-between" id='productsCard'>
+      <div className= "self-center h-3/5 px-14 flex justify-between card-con">
         {
             Products.map((product)=>{
                 return <Card key={product.price} {...product}/>
