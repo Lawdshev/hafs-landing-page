@@ -17,12 +17,12 @@ const Card  = ({image,name,price}) => {
 
 function heroes2() {
   return (
-    <div className='h-screen bg-red-100'id='products'>
+    <div className='h-screen bg-pink-100'id='products'>
       <div className="h-1/4 bg-red-200 text-center">
         <h1 className='text-5xl'>POPULAR PRODUCTS</h1>
         <p className='text-2xl mt-2 italic font-light'>MEET OUR BEST SELLERS</p>
       </div>
-      <div className= "self-center h-3/5 px-14 flex justify-between">
+      <div className= "self-center h-3/5 px-14 flex justify-between" id='productsCard'>
         {
             Products.map((product)=>{
                 return <Card key={product.price} {...product}/>
