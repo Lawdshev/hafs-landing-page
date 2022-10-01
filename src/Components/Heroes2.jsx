@@ -16,7 +16,7 @@ const Card  = ({image,name,price}) => {
 
 function heroes2() {
   return (
-    <div className='h-screen bg-red-100'id='products'>
+    <div className='h-screen bg-pink-100'id='products'>
       <div className="h-1/4 bg-red-200 text-center ppp">
         <h1 className='text-5xl pp'>POPULAR PRODUCTS</h1>
         <p className='text-2xl mt-2 italic font-light'>MEET OUR BEST SELLERS</p>

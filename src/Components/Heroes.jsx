@@ -7,7 +7,7 @@ import Star from '../images/Star 1.png';
 function Heroes() {
     
   return (
-    <div className="h-screen bg-red-200">
+    <div className="h-screen bg-red-300">
         <div className="container flex py-4">
             <nav className="container flex flex-col md:flex-row ">
                 <ul className='flex self-center mx-auto w-52 justify-between'>
