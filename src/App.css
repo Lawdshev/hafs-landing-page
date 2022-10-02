@@ -4,8 +4,36 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-
+.imgg{
+    top:-20px;
+    position: absolute;
+    width: 400px;
+    margin-left: 20px;
+}
 @media screen and (max-width:600px) {
+    .formy{
+        padding: 0 10px;
+    }
+    .dvd{
+        width: 100%;
+        height: 50%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .wrapper{
+        width: 70%;
+        height: 70%;
+        position: relative;
+    }
+    .imgg{
+        margin-left: 20px;
+        position: absolute;
+        width: 250px;
+        height: 380px;
+        top: -20px;
+
+    }
    #footer{
      width: 100%;
      padding: 0;
@@ -16,32 +44,23 @@
     height: 80px;
    }
    #footer-words{
-    width: 80%;
+    width: 90%;
     justify-content: space-around;
    }
    #footer-word{
      height: 80px;
    }
    #heading{
-    font-size: 15px;
+    font-size: 10px;
    }
    #heading-two{
     font-size: 10px;
    }
    #newsLetter{
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    min-height: 150vh;
     display: flex;
     flex-direction: column;
-   }
-   #newsLetterImage{
-    width: 80%;
-    height:50%;
-   }
-   #newsLetterForm{
-    justify-content: space-around;
-    height: 30%;
-    width: 100%;
    }
    #newsLetterHeading{
     font-size: 25px;
@@ -112,16 +131,18 @@
    }
    .ppp{
     width: 100%;
+    height: 10%;
    }
    .pp{
     font-size: 50px;
    }
+   #products{
+    min-height: 180vh;
+   }
    .card-con{
     flex-direction: column;
-    min-height: 100vh;
    }
    .my-card{
     margin-left: 0;
    }
-
 }
